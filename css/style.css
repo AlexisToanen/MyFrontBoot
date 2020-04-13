@@ -1,1 +1,208 @@
-/*TODO*/
+/****************************************************
+                      GLOBAL
+*****************************************************/
+* {
+    box-sizing: border-box;
+}
+/*FLEX*/
+.flex {
+    display: flex;
+}
+
+/*justify-content*/
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+/*align-items*/
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+/*flex-direction*/
+.flex-column {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+/*reverse*/
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+/*FLEX END*/
+/*FONT*/
+table, p, a, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    color: #161616;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.regular {
+    font-weight: 400;
+}
+.regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+.medium {
+    font-weight: 500;
+}
+.medium-italic {
+    font-weight: 500;
+    font-style: italic;
+}
+.semi-bold {
+    font-weight: 600;
+}
+.semi-bold-italic {
+    font-weight: 600;
+    font-style: italic;
+}
+.bold {
+    font-weight: 700;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+/*FONT END*/
+/*COLOR*/
+.light-color{
+    color: #F9F9F9;
+}
+.dark-color{
+    color: #161616;
+}
+/*COLOR END*/
+/****************************************************
+                      HEADER
+*****************************************************/
+header *, footer div *{
+    color: #F9F9F9;
+
+}
+
+header{
+    height: auto;
+    background-color: #1B2C20;
+}
+header div{
+    height: 80%;
+    width: 100%;
+    padding: 70px 0;
+}
+header nav{
+    height: 20%;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #335B3D;
+}
+header nav a{
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+
+/****************************************************
+                      MAIN
+*****************************************************/
+
+.container-m{
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+.container-l {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.container-xl {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+/****************************************************
+                      FOOTER
+*****************************************************/
+footer{
+    height: auto;
+    background-color: #335B3D;
+}
+footer div{
+    height: 80%;
+    width: 100%;
+    padding: 50px 0;
+}
+footer div:last-child{
+    height: 20%;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #1B2C20;
+}
+
+/****************************************************
+                      RESPONSIVE
+*****************************************************/
+
+/*------------ TABLETTE ---------------*/
+
+@media screen and (max-width: 1024px) {
+
+
+
+}
+
+/*------------ MOBILE ---------------*/
+
+@media screen and (max-width: 767px) {
+
+    .container-m{
+        max-width: 900px;
+        margin: 100px auto;
+    }
+    
+    .container-l {
+        max-width: 1000px;
+        margin: 100px auto;
+    }
+    
+    .container-xl {
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+
+}

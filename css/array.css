@@ -1,1 +1,29 @@
-/*TODO*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    border: none;
+    font-size: 1.2em;
+}
+th{
+    background-color: #1B2C20;
+    text-align: left;
+    color: #fff;
+    padding: 15px;
+    border: none;
+}
+th:first-of-type{
+    border-top-left-radius: 5px;
+}
+th:last-of-type{
+    border-top-right-radius: 5px;
+}
+tr td:first-of-type{
+    font-weight: 500;
+}
+td{
+    padding: 15px;
+    font-size: 1.1em;
+}
+table tr:nth-child(even){background-color: #eef2f4;}
